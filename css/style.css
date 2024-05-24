@@ -1,4 +1,4 @@
-/********** REGOLE GENERALI HEADER *********/
+/********** REGOLE HEADER *********/
 
 nav{
     height: 80px;
@@ -11,9 +11,19 @@ nav{
 
 .jumbotron{
     background-color: #1abc9c;
+    text-align: center;
 }
 
 
+/********** REGOLE SECTION PORTFOLIO ************/
+
+div img{
+    width: 100%;
+}
+
+.text{
+    text-align: center;
+}
 
 
 /* DEBUG */
