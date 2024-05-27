@@ -9,11 +9,17 @@ header .navbar{
     color: #fff;
 }
 
-.jumbotron{
-    background-color: #1abc9c;
-    text-align: center;
+#jumbotron{
     padding-top: 100px;
+}
+
+.green-section{
+    background-color: #1abc9c;
     color: #fff;
+}
+
+.text{
+    text-align: center;
 }
 
 .bar{
@@ -30,25 +36,41 @@ header .navbar{
     margin: 0 20px;
 }
 
-header h1, h4{
+h2, h4{
     margin: 30px 0;
 }
 
 
 /********** REGOLE SECTION PORTFOLIO ************/
 
+#portfolio{
+    padding-bottom: 50px;
+}
+
 div img{
     width: 100%;
+    border-radius: 20px;
+    margin-top: 20px;
 }
 
-.text{
-    text-align: center;
+.black-bar{
+    background-color: #000;
 }
 
+/*********** REGOLE SECTION ABOUT **********/
 
-/* DEBUG */
+p{
+    margin-top: 20px;
+}
 
-.box{
-    background-color: blue;
-    min-height: 200px;
+.btn-primary{
+    background-color: #1abc9c;
+    border-color: #fff;
+    margin-bottom: 30px;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+    border-color: #000;
 }
