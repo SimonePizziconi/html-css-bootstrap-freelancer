@@ -74,3 +74,25 @@ p{
     color: #000;
     border-color: #000;
 }
+
+/************* REGOLE SECTION CONTACT ME ************/
+
+input[type=email], input[type=text], textarea{
+    border: 0;
+    border-bottom: 1px solid black;
+    height: 50px;
+    width: 100%;
+}
+
+textarea{
+    height: 150px;
+}
+
+input[type=submit]{
+    border: 0;
+    background-color: #1abc9c;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    color: #fff;
+}
